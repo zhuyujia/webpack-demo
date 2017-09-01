@@ -1,0 +1,29 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "webpack-demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf build && cross-env ENTRY_ENV=dev node config/wps.js",
+    "remove": "rimraf build"
+  },
+  "author": "zhuyujia",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.5",
+    "eslint": "^4.1.1",
+    "eslint-config-google": "^0.8.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  }
+}
