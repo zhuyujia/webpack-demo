@@ -4,11 +4,11 @@
   "description": "webpack-demo",
   "main": "index.js",
   "scripts": {
-    "dev": "rimraf build && cross-env ENTRY_ENV=dev node config/wps.js",
-    "remove": "rimraf build"
+    "remove": "rimraf build",
+    "dev": "rimraf build && cross-env ENTRY_ENV=dev node config/wps.js"
   },
   "author": "zhuyujia",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
