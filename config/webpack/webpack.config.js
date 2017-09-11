@@ -21,5 +21,6 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('static/css/[name].css')
-    ]
+    ],
+    devtool: 'source-map'
 };
